@@ -1,12 +1,12 @@
 {
-  "name": "dhiatn-cv",
+  "name": "dhiatn.github.io",
   "authors": [
     "Dhia Abbassi <dhia.absi@gmail.com>"
   ],
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "http://dhiatn.github.io",
   "private": true,
   "ignore": [
     "**/.*",
