@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Layout from './components/cv/Layout.jsx';
+import Layout from './components/resume/Layout.jsx';
 
 
 class Resume extends React.Component {

@@ -14,8 +14,8 @@ class Interests extends React.Component {
         <ul className="list-group">
           <li className="list-group-item"> Love doing sport, playing football, biking and hiking(specially in winter) </li>
           <li className="list-group-item"> Love lying down on the grass in parks and enjoying the peace of mind </li>
-          <li className="list-group-item"> Love watching movies specially on big cinema's sceen</li>
-          <li className="list-group-item"> Addicted to choclate</li>
+          <li className="list-group-item"> Love watching movies specially on big Cinemas screens</li>
+          <li className="list-group-item"> Love chocolate</li>
         </ul>
       </div>
     );
