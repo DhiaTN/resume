@@ -4,6 +4,8 @@ bower
 .bower-registry
 .bower-tmp
 
+### webpack ###
+bundle.js*
 
 ### Node ###
 # Logs
