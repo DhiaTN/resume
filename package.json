@@ -1,6 +1,6 @@
 {
-  "name": "dhiatn.github.io",
-  "version": "1.1.0",
+  "name": "react-resume",
+  "version": "1.2.0",
   "description": "",
   "main": "",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "author": "Dhia Abbassi <dhia.absi@gmail.com>",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
