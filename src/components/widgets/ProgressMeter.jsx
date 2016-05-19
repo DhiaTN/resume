@@ -6,18 +6,42 @@ import ReactDOM from 'react-dom';
 
 class ProgressMeter extends React.Component {
 
-  render() {
+	static propTypes = {
+		meters: React.PropTypes.array.isRequired
+	}
 
-    return ( 
-		<div className="progress-meter">
-		  <div style={{"width": "20%"}} className="meter meter-left"><span className="meter-text">Newbie</span></div>
-		  <div style={{"width": "30%"}} className="meter meter-left"><span className="meter-text">Intermediate</span></div>
-		  <div style={{"width": "35%"}} className="meter meter-left"><span className="meter-text">Good</span></div>
-		  <div style={{"width": "15%"}} className="meter meter-left"><span className="meter-text">Guru</span></div>
-		</div>
-    );
+	static defaultProps = {
+		meters: [{
+			value: "20%",
+			name: "Newbie"
+		}, {
+			value: "30%",
+			name: "Intermediate"
+		}, {
+			value: "35%",
+			name: "Good"
+		}, {
+			value: "15%",
+			name: "Guru"
+		}]
+	}
 
-  }
-};
+	render() {
+
+		var meters = this.props.meters.map(function(meter){
+			return  (
+				<div style={ {"width": meter.value} } className="meter meter-left">
+					<span className="meter-text">{ meter.name }</span>
+			    </div>
+			);
+		})
+
+		return (
+
+			<div className = "progress-meter">{ meters }</div>
+		);
+
+	}
+}
 
 export default ProgressMeter;
